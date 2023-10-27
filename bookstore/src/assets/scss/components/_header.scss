@@ -1,0 +1,61 @@
+.navbar-custom {
+    padding: 15px 0;
+    background-color: #063547 !important;
+
+    .navbar-brand {
+        font-family: 'Mulish', Courier, monospace;
+        color: $white-1;
+        font-weight: $fw-4;
+        font-size: 24px;
+    }
+
+    .navbar-collapse {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    font-family: 'Mulish', Courier, monospace;
+                    font-weight: $fw-4;
+                    padding: 10px 25px;
+                    color: #ffffff;
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+
+    .search_form {
+        display: flex;
+        margin: 0;
+        position: relative;
+
+        .form-control {
+            border-radius: 45px;
+            height: 40px;
+            min-width: unset;
+            border: none;
+        }
+
+        button {
+            position: absolute;
+            top: 3px;
+            right: 15px;
+            width: 35px;
+            height: 35px;
+            padding: 0;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            background-color: #44b89d;
+            border-radius: 100%;
+
+            .fa-magnifying-glass {
+                display: inline-block;
+                font: normal normal normal 14px/1 FontAwesome;
+                font-size: inherit;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+            }
+        }
+    }
+}
